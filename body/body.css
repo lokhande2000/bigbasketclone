@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ProximaNova,Helvetica,Arial,sans-serif;
+}
+
+html, body{
+    /* height: 100%;
+    width: 100%; */
+    /* font-size: 62.5%; */
+}
+.iframe-header{
+    width: 100%;
+    z-index: 555;
+    position: fixed;
+    top: 0;
+    padding: 0;
+}
+#body-main{
+    /* height: 100%; */
+    width: 80%;
+    margin: auto;
+    /* padding-top: 1rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    /* background-color: #FFFFFF; */
+    /* z-index: 99; */
+}
+#body-main > div{
+    margin: 30px;
+}
+
+#advertisement{
+    /* height: 50vh; */ /*==============*/
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#advertisement img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.linearCollage-btns{
+    /* height: 8vh;---------------- */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.linearCollage-btns > img{
+    height: 100%;
+    width: 15%;
+}
+
+.advertisement-top-brand{
+    /* height: 50vh;---------- */
+    width: 100%;
+    
+}
+.advertisement-top-brand img{
+    height: 100%;
+    width: 100%;    
+}
+
+.offers{
+    /* height: 35vh;----- */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.offers .offers-imgcard{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offers .bank-offers{
+    /* font-size: 3rem; */
+}
+.offers .offers-imgcard > img{
+    height: 100%;
+    width: 24%;
+    border-radius: 1rem;
+}
+
+/* -----------best seller section start ----------- */
+
+.best-sellers{
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #F7F7F7;
+}
+.best-sellers1 {
+    height: 60px;
+    /* height: 10%; */
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.best-sellers1 .group-nextbtn{
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.best-sellers1 .group-nextbtn a{
+    color: #202049;
+}
+.best-sellers1 .group-nextbtn button{
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+    padding: 3px 8px;
+    margin-left: 5px;
+    color: #606060;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.best-sellers1 .group-nextbtn button:hover{
+    border: 1px solid #000;
+}
+.best-sellers1 .next{
+}
+.best-sellers2{
+    /* height: 89%; */
+    width: 100%;
+    /* padding: 24px; */
+    /* background-color: blue; */
+}
+
+.best-sellers2 .twoscroll{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: scroll;
+}
+
+
+.first{
+    /* border: 5px solid lawngreen; */
+}
+.second{
+    /* border: 5px solid blueviolet; */
+}
+.dflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 2px;
+}
+.dflex > div{
+    height: 100%;
+    width: 23.5%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dflex-img{
+    height: 40%;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 24px;
+    border: 1px solid #EDEDED;
+}
+.dflex-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+/* .dflex p{
+    margin-top: 25px;
+} */
+.product-name{
+    height: 10%;
+    max-width: 100%;
+    margin-top: 5px;
+    /* background-color: #7f7ff0; */
+}
+.retings{
+    height: 10px;
+    font-size: .9rem;
+    /* margin-bottom: 10px; */
+}
+.retings span{
+    padding: 5px 7px;
+    border-radius: 25px;
+    background-color: #E4F1CC;
+}
+.downarrow{
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #d4d0d0;
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.downarrow a{
+    text-decoration: none;
+    color: #8F8F8F;
+}
+.downarrow:hover{
+    border: 1px solid #8F8F8F;
+}
+
+.price span{
+    font-size: 12px;
+}
+.bookm {
+    margin-top: 35px;
+    bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bookm i{
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #c1bdbd;
+
+}
+.bookm button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 83%;
+    color: red;
+    /* font-weight: 600; */
+    font-size: 1.2rem;
+    border: 1px solid red;
+    transition: all 0.5s linear;
+}
+.bookm button:hover{
+    color: #fff;
+    background-color: red;
+}
+.space{
+    height: 30px;
+    width: 100%;
+}
+
+
+/* ============hide scroll bar================= */
+
+.best-sellers2 .twoscroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .best-sellers2 .twoscroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  /* ====================sectoin-offers=============================== */
+
+  
+  .section-offers{
+    /* height: 20vh; */
+    width: 100%;
+  }
+.section-offers > div{
+    /* height: 20vh; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1%;
+    /* margin-top: 10px; */
+    /* background-color: blue; */
+    padding: 10px 0;
+}
+.section-offers > div > img{
+    height: 100%;
+    width: 24%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.section-offers div img:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 10px 7px 29px 10px;
+}
+
+
+  /* =========  staples  =========== */
+
+  .staples{
+    width: 100%;
+  }
+  .staples div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+  }
+  .staples div img{
+    height: 100%;
+    width: 16%;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+.staples div img:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 10px 7px 29px 10px;
+}
+
+/* ================== brand slider ================ */
+
+.brand-slider{
+    /* height: 60vh;------- */
+    width: 100%;
+    border-radius: 20px;
+    /* background-color: khaki; */
+    overflow: hidden !important;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.brand-slider img{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+.brand-slider button{
+    padding: 5px 12px;
+    font-size: 20px;
+    background-color: #939393;
+    z-index: 3;
+    position: absolute;
+    border-radius: 50%;
+    color: #fff;
+    border: 3px solid #fff;
+}
+.brand-slider button:hover{
+    background-color: #111;
+   
+}
+
+.brand-slider .brand-slider-left{
+    
+    top: 50%;
+    left: 2rem;
+}
+.brand-slider .brand-slider-right{
+  
+    top: 50%;
+    right: 2rem;
+}
+
+.descriotion-bigbasket{
+    width: 100%;
+    
+}
+.descriotion-bigbasket h4{
+    color: #202020;
+    padding-top: 10px;
+}
+
+.descriotion-bigbasket > p {
+    margin: 25px 0;
+    color: #606060;
+}
+
+
+/* .footerheight{
+    height: 242vh;
+    width: 100%;
+
+} */
