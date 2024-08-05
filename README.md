@@ -29,7 +29,7 @@ the home, product, and cart page.
 
 #Home Page
 
-![App Screenshot](https://miro.medium.com/max/700/0*4bo1C9Vr37je-XtY.jpeg)
+![App Screenshot](https://drive.google.com/file/d/1GQ5-q9xPVaY2sYbswlWwEowapFlX1fvr/view?usp=sharing)
 
 #Register Page
 
